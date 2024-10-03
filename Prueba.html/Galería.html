@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        li{
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-success p-4">
+        <h1 style="text-align: center; font-size: 50px;">Minecraft</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+        <div class="container-fluid">
+            <a style="font-size:30px; "class="navbar-brand" href="Main.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Galería.html">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Personajes.html">Personajes</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/09/minecraft-movie-trailer-seed-feature.jpg" alt="" class="d-block rounded img-fluid" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWI1OTZmMDItNTYxMS00OTMwLTg0NzktNzQ3NWEwMDI1Y2Y5XkEyXkFqcGc@._V1_.jpg" alt="" class="d-block rounded img-fluid" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://gaming-cdn.com/images/news/articles/8169/cover/1000x563/he-aqui-un-primer-teaser-de-la-pelicula-de-minecraft-cover66d85fc40a85e.jpg" alt="" class="d-block rounded img-fluid" style="width:100%">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    
+</body>
